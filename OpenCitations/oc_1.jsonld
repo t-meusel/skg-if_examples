@@ -1,0 +1,406 @@
+{
+    "@context": "https://essepuntato.it/skg-if/context.json",
+    "@graph": [
+        {
+            "entity type": "product",
+            "local identifier": "https://w3id.org/oc/meta/br/062501777134",
+            "identifiers": [
+                {
+                    "scheme": "doi",
+                    "value": "10.1162/qss_a_00023"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "br/062501777134"
+                }
+            ],
+            "product type": "literature",
+            "titles": {
+                "none": "OpenCitations, An Infrastructure Organization For Open Scholarship"
+            },
+            "contributions": [
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0614010840729",
+                    "role": "author",
+                    "rank": 1
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0621010775619",
+                    "role": "author",
+                    "rank": 2
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0610116105",
+                    "role": "publisher"
+                }
+            ],
+            "manifestations": [
+                {
+                    "type": {
+                        "class": "http://purl.org/spar/fabio/JournalArticle",
+                        "labels": {
+                            "en": "journal article"
+                        },
+                        "defined in": "http://purl.org/spar/fabio"
+                    },
+                    "identifiers": [
+                        {
+                            "scheme": "doi",
+                            "value": "10.1162/qss_a_00023"
+                        },
+                        {
+                            "scheme": "omid",
+                            "value": "br/062501777134"
+                        }
+                    ],
+                    "dates": {
+                        "publication": "2020-02-01T00:00:00+00:00"
+                    },
+                    "biblio": {
+                        "issue": "1",
+                        "volume": "1",
+                        "pages": {
+                            "first": "428",
+                            "last": "444"
+                        },
+                        "in": "https://w3id.org/oc/meta/br/062501778099"
+                    }
+                }
+            ]
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0614010840729",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0003-0530-4305"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0614010840729"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Silvio",
+            "family name": "Peroni"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0621010775619",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0001-5506-523X"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0621010775619"
+                }
+            ],
+            "entity type": "person",
+            "given name": "D M",
+            "family name": "Shotton"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0610116105",
+            "identifiers": [
+                {
+                    "scheme": "crossref",
+                    "value": "281"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0610116105"
+                }
+            ],
+            "entity type": "organisation",
+            "name": "Mit Press"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/br/062501778099",
+            "entity type": "venue",
+            "title": "Quantitative Science Studies",
+            "type": "journal",
+            "identifiers": [
+                {
+                    "scheme": "issn",
+                    "value": "2641-3337"
+                },
+                {
+                    "scheme": "openalex",
+                    "value": "S4210195326"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "br/062501778099"
+                }
+            ],
+            "contributions": [
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0610116105",
+                    "role": "publisher"
+                }
+            ]
+        },
+        {
+            "entity type": "product",
+            "local identifier": "https://w3id.org/oc/meta/br/061701903780",
+            "identifiers": [
+                {
+                    "scheme": "doi",
+                    "value": "10.1007/978-3-030-62466-8_28"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "br/061701903780"
+                }
+            ],
+            "product type": "literature",
+            "titles": {
+                "none": "The OpenCitations Data Model"
+            },
+            "contributions": [
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0615045315",
+                    "role": "author",
+                    "rank": 1
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0625011225133",
+                    "role": "author",
+                    "rank": 2
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/06180101627",
+                    "role": "author",
+                    "rank": 3
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/06210102697",
+                    "role": "author",
+                    "rank": 4
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0615045339",
+                    "role": "author",
+                    "rank": 5
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0614010840729",
+                    "role": "author",
+                    "rank": 6
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0615010706460",
+                    "role": "author",
+                    "rank": 7
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0621010775619",
+                    "role": "author",
+                    "rank": 8
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/065061926",
+                    "role": "author",
+                    "rank": 9
+                },
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0610116006",
+                    "role": "publisher"
+                }
+            ],
+            "manifestations": [
+                {
+                    "type": {
+                        "class": "http://purl.org/spar/fabio/BookChapter",
+                        "labels": {
+                            "en": "book chapter"
+                        },
+                        "defined in": "http://purl.org/spar/fabio"
+                    },
+                    "identifiers": [
+                        {
+                            "scheme": "doi",
+                            "value": "10.1007/978-3-030-62466-8_28"
+                        },
+                        {
+                            "scheme": "omid",
+                            "value": "br/061701903780"
+                        }
+                    ],
+                    "dates": {
+                        "publication": "2020-01-01T00:00:00+00:00"
+                    },
+                    "biblio": {
+                        "pages": {
+                            "first": "447",
+                            "last": "463"
+                        },
+                        "in": "https://w3id.org/oc/meta/br/069065407"
+                    }
+                }
+            ]
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0615045315",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0002-9806-084X"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0615045315"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Giovanni",
+            "family name": "Colavizza"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0625011225133",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0002-1113-7550"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0625011225133"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Marilena",
+            "family name": "Daquino"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/06180101627",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0002-4627-5371"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/06180101627"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Behnam",
+            "family name": "Ghavimi"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/06210102697",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0001-8590-9827"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/06210102697"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Anne",
+            "family name": "Lauscher"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0615045339",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0002-6656-1658"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0615045339"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Philipp",
+            "family name": "Mayr"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0615010706460",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0002-7406-6286"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0615010706460"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Matteo",
+            "family name": "Romanello"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/065061926",
+            "identifiers": [
+                {
+                    "scheme": "orcid",
+                    "value": "0000-0002-6485-9434"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/065061926"
+                }
+            ],
+            "entity type": "person",
+            "given name": "Philipp",
+            "family name": "Zumstein"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/ra/0610116006",
+            "identifiers": [
+                {
+                    "scheme": "crossref",
+                    "value": "297"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "ra/0610116006"
+                }
+            ],
+            "entity type": "organisation",
+            "name": "Springer Science And Business Media Llc"
+        },
+        {
+            "local identifier": "https://w3id.org/oc/meta/br/069065407",
+            "entity type": "venue",
+            "title": "The Semantic Web – ISWC 2020",
+            "type": "book",
+            "identifiers": [
+                {
+                    "scheme": "doi",
+                    "value": "10.1007/978-3-030-62466-8"
+                },
+                {
+                    "scheme": "isbn",
+                    "value": "9783030624651"
+                },
+                {
+                    "scheme": "isbn",
+                    "value": "9783030624668"
+                },
+                {
+                    "scheme": "openalex",
+                    "value": "W4249810877"
+                },
+                {
+                    "scheme": "omid",
+                    "value": "br/069065407"
+                }
+            ],
+            "contributions": [
+                {
+                    "by": "https://w3id.org/oc/meta/ra/0610116006",
+                    "role": "publisher"
+                }
+            ]
+        }
+    ]
+}
