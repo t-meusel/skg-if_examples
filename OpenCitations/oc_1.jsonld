@@ -1,9 +1,15 @@
 {
-    "@context": "https://essepuntato.it/skg-if/context.json",
+    "@context": [ 
+        "https://w3id.org/skg-if/context/skg-if.json",
+        { 
+            "@base": "https://w3id.org/skg-if/sandbox/oc/",
+            "": "https://w3id.org/skg-if/sandbox/oc/"
+        }
+    ],
     "@graph": [
         {
-            "entity type": "product",
-            "local identifier": "https://w3id.org/oc/meta/br/062501777134",
+            "entity_type": "product",
+            "local_identifier": "https://w3id.org/oc/meta/br/062501777134",
             "identifiers": [
                 {
                     "scheme": "doi",
@@ -14,7 +20,7 @@
                     "value": "br/062501777134"
                 }
             ],
-            "product type": "literature",
+            "product_type": "literature",
             "titles": {
                 "none": "OpenCitations, An Infrastructure Organization For Open Scholarship"
             },
@@ -41,7 +47,7 @@
                         "labels": {
                             "en": "journal article"
                         },
-                        "defined in": "http://purl.org/spar/fabio"
+                        "defined_in": "http://purl.org/spar/fabio"
                     },
                     "identifiers": [
                         {
@@ -69,7 +75,7 @@
             ]
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0614010840729",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0614010840729",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -80,12 +86,12 @@
                     "value": "ra/0614010840729"
                 }
             ],
-            "entity type": "person",
-            "given name": "Silvio",
-            "family name": "Peroni"
+            "entity_type": "person",
+            "given_name": "Silvio",
+            "family_name": "Peroni"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0621010775619",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0621010775619",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -96,12 +102,12 @@
                     "value": "ra/0621010775619"
                 }
             ],
-            "entity type": "person",
-            "given name": "D M",
-            "family name": "Shotton"
+            "entity_type": "person",
+            "given_name": "D M",
+            "family_name": "Shotton"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0610116105",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0610116105",
             "identifiers": [
                 {
                     "scheme": "crossref",
@@ -112,12 +118,12 @@
                     "value": "ra/0610116105"
                 }
             ],
-            "entity type": "organisation",
+            "entity_type": "organisation",
             "name": "Mit Press"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/br/062501778099",
-            "entity type": "venue",
+            "local_identifier": "https://w3id.org/oc/meta/br/062501778099",
+            "entity_type": "venue",
             "title": "Quantitative Science Studies",
             "type": "journal",
             "identifiers": [
@@ -142,8 +148,8 @@
             ]
         },
         {
-            "entity type": "product",
-            "local identifier": "https://w3id.org/oc/meta/br/061701903780",
+            "entity_type": "product",
+            "local_identifier": "https://w3id.org/oc/meta/br/061701903780",
             "identifiers": [
                 {
                     "scheme": "doi",
@@ -154,7 +160,7 @@
                     "value": "br/061701903780"
                 }
             ],
-            "product type": "literature",
+            "product_type": "literature",
             "titles": {
                 "none": "The OpenCitations Data Model"
             },
@@ -216,7 +222,7 @@
                         "labels": {
                             "en": "book chapter"
                         },
-                        "defined in": "http://purl.org/spar/fabio"
+                        "defined_in": "http://purl.org/spar/fabio"
                     },
                     "identifiers": [
                         {
@@ -242,7 +248,7 @@
             ]
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0615045315",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0615045315",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -253,12 +259,12 @@
                     "value": "ra/0615045315"
                 }
             ],
-            "entity type": "person",
-            "given name": "Giovanni",
-            "family name": "Colavizza"
+            "entity_type": "person",
+            "given_name": "Giovanni",
+            "family_name": "Colavizza"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0625011225133",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0625011225133",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -269,12 +275,12 @@
                     "value": "ra/0625011225133"
                 }
             ],
-            "entity type": "person",
-            "given name": "Marilena",
-            "family name": "Daquino"
+            "entity_type": "person",
+            "given_name": "Marilena",
+            "family_name": "Daquino"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/06180101627",
+            "local_identifier": "https://w3id.org/oc/meta/ra/06180101627",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -285,12 +291,12 @@
                     "value": "ra/06180101627"
                 }
             ],
-            "entity type": "person",
-            "given name": "Behnam",
-            "family name": "Ghavimi"
+            "entity_type": "person",
+            "given_name": "Behnam",
+            "family_name": "Ghavimi"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/06210102697",
+            "local_identifier": "https://w3id.org/oc/meta/ra/06210102697",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -301,12 +307,12 @@
                     "value": "ra/06210102697"
                 }
             ],
-            "entity type": "person",
-            "given name": "Anne",
-            "family name": "Lauscher"
+            "entity_type": "person",
+            "given_name": "Anne",
+            "family_name": "Lauscher"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0615045339",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0615045339",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -317,12 +323,12 @@
                     "value": "ra/0615045339"
                 }
             ],
-            "entity type": "person",
-            "given name": "Philipp",
-            "family name": "Mayr"
+            "entity_type": "person",
+            "given_name": "Philipp",
+            "family_name": "Mayr"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0615010706460",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0615010706460",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -333,12 +339,12 @@
                     "value": "ra/0615010706460"
                 }
             ],
-            "entity type": "person",
-            "given name": "Matteo",
-            "family name": "Romanello"
+            "entity_type": "person",
+            "given_name": "Matteo",
+            "family_name": "Romanello"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/065061926",
+            "local_identifier": "https://w3id.org/oc/meta/ra/065061926",
             "identifiers": [
                 {
                     "scheme": "orcid",
@@ -349,12 +355,12 @@
                     "value": "ra/065061926"
                 }
             ],
-            "entity type": "person",
-            "given name": "Philipp",
-            "family name": "Zumstein"
+            "entity_type": "person",
+            "given_name": "Philipp",
+            "family_name": "Zumstein"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/ra/0610116006",
+            "local_identifier": "https://w3id.org/oc/meta/ra/0610116006",
             "identifiers": [
                 {
                     "scheme": "crossref",
@@ -365,12 +371,12 @@
                     "value": "ra/0610116006"
                 }
             ],
-            "entity type": "organisation",
+            "entity_type": "organisation",
             "name": "Springer Science And Business Media Llc"
         },
         {
-            "local identifier": "https://w3id.org/oc/meta/br/069065407",
-            "entity type": "venue",
+            "local_identifier": "https://w3id.org/oc/meta/br/069065407",
+            "entity_type": "venue",
             "title": "The Semantic Web – ISWC 2020",
             "type": "book",
             "identifiers": [

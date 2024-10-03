@@ -55,7 +55,7 @@ def create_contributors(contributor_list, contributor_type):
 
             # related agent
             agent_object = {
-                "local identifier": contributor_omid,
+                "local_identifier": contributor_omid,
             }
 
             # identifiers
@@ -63,18 +63,18 @@ def create_contributors(contributor_list, contributor_type):
 
             # names
             if ", " in name:
-                agent_object["entity type"] = "person"
+                agent_object["entity_type"] = "person"
 
                 fn, gn = name.split(", ")
                 if gn:
-                    agent_object["given name"] = gn
+                    agent_object["given_name"] = gn
                 if fn:
-                    agent_object["family name"] = fn
+                    agent_object["family_name"] = fn
             else:
                 if contributor_type == "publisher":
-                    agent_object["entity type"] = "organisation"
+                    agent_object["entity_type"] = "organisation"
                 else:
-                    agent_object["entity type"] = "agent"
+                    agent_object["entity_type"] = "agent"
                 
                 if name:
                     agent_object["name"] = name
@@ -108,29 +108,35 @@ with open(args.input, "r", encoding="utf-8") as f:
     g = [] 
 
     result = {
-        "@context": "https://essepuntato.it/skg-if/context.json",
+        "@context": [ 
+            "https://w3id.org/skg-if/context/skg-if.json",
+            { 
+                "@base": "https://w3id.org/skg-if/sandbox/oc/",
+                "": "https://w3id.org/skg-if/sandbox/oc/"
+            }
+        ],
         "@graph": g
     }
 
     for item in oc_json:
         research_product = {
-            "entity type": "product"
+            "entity_type": "product"
         }
         g.append(research_product)
  
         # local identifier
-        research_product["local identifier"] = get_omid_url(item["id"])
+        research_product["local_identifier"] = get_omid_url(item["id"])
 
         # identifiers
         create_identifiers(item["id"], research_product)
 
         # product type
         if item["type"] in ("data file", "dataset"):
-            research_product["product type"] = "research data"
+            research_product["product_type"] = "research data"
         elif item["type"] in ("software"):
-            research_product["product type"] = "research software"
+            research_product["product_type"] = "research software"
         else:
-            research_product["product type"] = "literature"
+            research_product["product_type"] = "literature"
 
         # titles
         if "title" in item and item["title"] != "":
@@ -156,7 +162,7 @@ with open(args.input, "r", encoding="utf-8") as f:
                 "labels": {
                     "en": item["type"]
                 },
-                "defined in": "http://purl.org/spar/fabio"
+                "defined_in": "http://purl.org/spar/fabio"
             }
         }
 
@@ -191,8 +197,8 @@ with open(args.input, "r", encoding="utf-8") as f:
                 manifestation["biblio"]["in"] = venue_omid
 
                 venue_object = {
-                    "local identifier": venue_omid,
-                    "entity type": "venue",
+                    "local_identifier": venue_omid,
+                    "entity_type": "venue",
                     "title": name,
                     "type": venue_mapping[item["type"]]
                 }
