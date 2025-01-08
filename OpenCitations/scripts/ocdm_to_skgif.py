@@ -112,7 +112,7 @@ with open(args.input, "r", encoding="utf-8") as f:
             "https://w3id.org/skg-if/context/skg-if.json",
             { 
                 "@base": "https://w3id.org/skg-if/sandbox/oc/",
-                "": "https://w3id.org/skg-if/sandbox/oc/"
+                "skg": "https://w3id.org/skg-if/sandbox/oc/"
             }
         ],
         "@graph": g
