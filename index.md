@@ -1,5 +1,5 @@
 ---
-title: SKG-IF Examples
+title: Examples
 layout: default
 nav_order: 5
 ---
