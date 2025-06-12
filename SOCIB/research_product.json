@@ -1,0 +1,56 @@
+{
+    "@context": [
+      "https://w3id.org/skg-if/context/1.0.1/skg-if.json",
+      {
+        "@base": "http://schema.org/"
+      }
+    ],
+    "local_identifier": "auv/glider/sdeep01-scb_sldeep001/L0/2023/dep0041_sdeep01_scb-sldeep001_L0_2023-06-15_data_dt.nc",
+    "entity_type": "product",
+    "product_type": "research data",
+    "titles": {
+      "en": [
+        "Glider deployment delayed time raw data"
+      ]
+    },
+    "abstracts": {
+      "en": [
+        "SOCIB Glider Missions - Canales Endurance Line - was initiated in 2011, covering both the Mallorca and Ibiza channel in a semi-continuous operational mode and sampling physical and biogeochemical observations. The Ibiza channel is a well-established biodiversity hotspot with high mesoscale and submesoscale variability. On the canales endurance line, ocean gliders making repeated dives from the surface to seabed or up to 1000 m. The glider missions typically last about 60 to 90 days, providing 6-14 sections of the Ibiza channel and 2 sections of the Mallorca channel."
+      ]
+    },
+    "identifiers": [
+      {
+        "value": "http://thredds.socib.es/thredds/dodsC/auv/glider/sdeep01-scb_sldeep001/L0/2023/dep0041_sdeep01_scb-sldeep001_L0_2023-06-15_data_dt.nc",
+        "scheme": "url"
+      }
+    ],
+    "contributions": [
+        {
+            "by": "https://edmo.seadatanet.org/report/3410",
+            "contribution": ["resources"]
+        },
+        {
+            "by": "https://orcid.org/0000-0002-6311-0093",
+            "declared_affiliations": ["https://edmo.seadatanet.org/report/3410"],
+            "contribution": ["supervision", "funding acquisition"],
+            "role": "author"
+        }
+    ],
+    "manifestations": [
+        {
+            "dates": {
+                "collected": ["2023-06-15T08:45:35+00:00", "2023-07-19T12:11:45+00:00"]
+            },
+            "access_rights": {
+                "status": "open",
+                "description": "Approved for public release. Distribution Unlimited."
+            }
+        }
+    ],
+    "related_products": {
+        "is_part_of": ["https://doi.org/10.25704/jd07-sv9"]
+    }
+}
+
+
+
